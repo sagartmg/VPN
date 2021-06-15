@@ -85,11 +85,11 @@
   z-index: 5;
 }
 
-@media screen and (min-width: 992px) {
-  .whitespace-aside {
+@media screen and (min-width:768px) {
+  /* .whitespace-aside {
     padding-left: 0;
     padding-right: 0;
-  }
+  } */
 
   .navbar-section {
     padding-top: 50px;
@@ -132,5 +132,13 @@
 
   .testimonial__items-container {
     padding-top: 60px;
+  }
+}
+
+
+@media screen and (min-width:1200px) {
+  .whitespace-aside {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
